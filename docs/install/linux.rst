@@ -66,6 +66,9 @@ First, you need to install all of the software on which Tabbycat depends, if you
 Tabbycat uses Python 3.9.  You probably already have Python 3, but you'll also need the development package in order to install Psycopg2 later.  You'll also want `Pipenv <https://pipenv.pypa.io/en/latest/>`_, if you don't already have it. Install::
 
     $ sudo apt install python3.9 python3-distutils pipenv
+    # if cannot install python3.9 directly, follow https://askubuntu.com/questions/1318846/how-do-i-install-python-3-9
+    # you may also need to install below
+    $ sudo apt install python3.9-distutils
 
 Check the version::
 
